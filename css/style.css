@@ -1,0 +1,212 @@
+body {
+	margin: 0;
+}
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Questrial';
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	margin-top: 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links > li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 1em;
+}
+
+.top-navigation li a {
+	color: #838994;
+	text-decoration: none;
+}
+
+.top-navigation .links > .active a {
+	color: black;
+	font-weight: 500;
+}
+
+.top-navigation .logo {
+	margin-top: 1em;
+	margin-bottom: 3em;
+	margin-left: 3em;
+}
+
+.top-navigation .links li a:hover {
+	cursor: pointer;
+	color: #fb1345;
+}
+
+.masthead {
+	background-image: url('../images/desk.jpeg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938em;
+}
+
+.masthead .content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	margin-left: 25em;
+}
+
+.masthead h1 {
+	margin-top: .05rem;
+	padding-top: 20rem;
+	font-size: 3.125rem;
+	font-family: 'Playfair';
+	font-weight: 300;
+	color: black;
+	text-align: center;
+}
+
+.masthead h3 {
+	margin-top: -2rem;
+	font-size: 2rem;
+	font-family: 'Lobster';
+	font-weight: 100;
+	color: #fb1345;
+	text-align: center;
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	opacity: .6;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	width: 9.688rem;
+    background-color: #a5a5a5;
+    border-color: #a5a5a5;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: table;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+button {
+	transition: background-color 0.5s ease;
+	background-color: #a5a5a5;
+}
+
+button:hover {
+	background-color: #fb1345;
+}
+
+.intro-section {
+  max-width: 30em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3em;
+  font-family: 'Playfair';
+  font-size: 1rem;
+}
+
+.intro-section h1 {
+	font-family: 'Lobster';
+	font-weight: 100;
+	color: #fb1345;
+}
+
+.vertical-line {
+    height: 1px;
+    width: 75%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.content-footer {
+	text-align: center;
+	font-family: 'Questrial';
+	font-size: 1rem;
+}
+
+.content-footer .content h5 {
+	margin-top: 4rem;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content-footer li {
+	display: inline-block;
+	padding-bottom: 2em;
+	padding: 1em;
+}
+
+footer a:link {
+  color: #a5a5a5;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: 7e7d7d;
+}
+
+footer a:hover {
+  color: #fb1345;
+}
+
+footer a:active {
+  color: #9bbabf;
+}
+
+.masthead-portfolio-page {
+	background-image: url('../images/desk-portfolio-page.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15em;
+	margin-bottom: 5em;
+}	
+
+.projects .content > h2 {
+	font-weight: normal;
+	font-family: 'Playfair';
+	font-size: 25px;
+	padding-top: 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.projects {
+	text-align: center;
+}
+
+.samples > li {
+	vertical-align: top;
+	display: inline-block;
+	width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'Playfair';
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.samples {
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
