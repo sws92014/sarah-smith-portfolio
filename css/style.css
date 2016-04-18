@@ -91,6 +91,7 @@ button {
 	width: 9.688rem;
     background-color: #a5a5a5;
     border-color: #a5a5a5;
+    text-decoration: none;
     color: white;
     font-size: 1rem;
     cursor: pointer;
@@ -102,10 +103,12 @@ button {
 button {
 	transition: background-color 0.5s ease;
 	background-color: #a5a5a5;
+	text-decoration: none;
 }
 
 button:hover {
 	background-color: #fb1345;
+	text-decoration: none;
 }
 
 .intro-section {
@@ -198,8 +201,15 @@ footer a:active {
     margin-right: auto;
 	font-family: 'Questrial';
 	color: black;
+	text-decoration: none;
 	font-size: 15px;
 	padding-top: 20px;
+}
+
+.samples > li a:hover {
+	cursor: pointer;
+	color: #fb1345;
+	text-decoration: none;
 }
 
 .samples {
