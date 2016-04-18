@@ -217,6 +217,13 @@ margin: 0;
 padding: 0;
 }
 
+.intro-section h2 {
+	font-family: 'Questrial';
+	font-size: 15px;
+	color: #fb1345;
+	text-decoration: none;
+}
+
 
 
 
