@@ -23,8 +23,15 @@ body {
 
 .top-navigation .links > li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 20px;
 	margin-top: 1em;
+}
+
+@media (max-width: 970px) {
+  .top-navigation .links {
+  	float: none;
+  	margin-left: 100px;
+  }
 }
 
 .top-navigation li a {
@@ -41,6 +48,13 @@ body {
 	margin-top: 1em;
 	margin-bottom: 3em;
 	margin-left: 3em;
+}
+
+@media (max-width: 970px) {
+  .top-navigation .logo {
+  	margin-left: 10px;
+  	margin-top: -40px;
+  }
 }
 
 .top-navigation .links li a:hover {
@@ -95,10 +109,29 @@ a:hover {
 	text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 970px) {
   .masthead {
   	height: 20em;
   }
+}
+
+@media (max-width: 970px) {
+  .masthead .content {
+  	margin-left: 12em;
+  }
+}
+
+@media (max-width: 970px) {
+  .masthead h1 {
+		padding-top: 8rem;
+		font-size: 2rem;
+  }
+}
+
+@media (max-width: 970px) {
+	.masthead h3 {
+		font-size: 1.375rem;
+	}
 }
 
 @media (max-width: 500px) {
@@ -154,6 +187,12 @@ button:hover a {
 @media (max-width: 500px) {
 	button {
 		margin-top: 2rem;
+	}
+}
+
+@media (max-width: 970px) {
+	button {
+		margin-top: 1rem;
 	}
 }
 
@@ -265,7 +304,7 @@ margin: 0;
 padding: 0;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 970px) {
   .samples li {
   	display: block;
   }
