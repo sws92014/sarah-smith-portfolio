@@ -48,6 +48,19 @@ body {
 	color: #fb1345;
 }
 
+a {
+	font-family: 'Questrial';
+	color: gray;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #fb1345;
+	text-decoration: none;
+}
+
 .masthead {
 	background-image: url('../images/desk.jpeg');
 	background-position: center bottom;
@@ -82,6 +95,8 @@ body {
 	text-align: center;
 }
 
+
+
 button {
 	text-shadow: none;
 	border-style: none;
@@ -91,24 +106,26 @@ button {
 	width: 9.688rem;
     background-color: #a5a5a5;
     border-color: #a5a5a5;
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
     cursor: pointer;
     display: table;
     margin: 0 auto;
     margin-top: 5rem;
+    transition: background-color 0.5s ease;
+	background-color: #a5a5a5;
 }
 
-button {
-	transition: background-color 0.5s ease;
-	background-color: #a5a5a5;
-	text-decoration: none;
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
 }
 
 button:hover {
 	background-color: #fb1345;
-	text-decoration: none;
+}
+
+button:hover a {
+	color: white;
 }
 
 .intro-section {
@@ -199,22 +216,23 @@ footer a:active {
 	width: 32%;
     margin-left: auto;
     margin-right: auto;
-	font-family: 'Questrial';
-	color: black;
-	text-decoration: none;
-	font-size: 15px;
 	padding-top: 20px;
 }
 
-.samples > li a:hover {
-	cursor: pointer;
-	color: #fb1345;
-	text-decoration: none;
+.samples a:hover img {
+	opacity: .5;
+	transition: all 0.2s ease;
 }
 
 .samples {
 margin: 0;
 padding: 0;
+}
+
+@media (max-width: 600px) {
+  .samples li {
+  	display: block;
+  }
 }
 
 .intro-section h2 {
@@ -223,6 +241,7 @@ padding: 0;
 	color: #fb1345;
 	text-decoration: none;
 }
+
 
 
 
