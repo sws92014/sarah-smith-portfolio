@@ -269,9 +269,15 @@ footer a:active {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 15em;
+	height: 300px;
 	margin-bottom: 5em;
 }	
+
+@media (max-width: 500px) {
+  .masthead-portfolio-page {
+  	height: 150px;
+  }
+}
 
 .projects .content > h2 {
 	font-weight: normal;
