@@ -333,14 +333,6 @@ footer a:active {
   }
 }
 
-@media (max-width: 500px) {
-  .samples li {
-  	display: block;
-  	margin-left: 45px;
-  	padding-top: 5px;
-  }
-}
-
 .intro-section h2 {
 	color: #fb1345;
 	font-family: 'Playfair';
